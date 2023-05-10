@@ -26,8 +26,8 @@ body {
   
   
   #container {
-    
     display: grid;
+    grid-gap: 0;
     height: 500px;
     width: 500px;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
@@ -36,10 +36,11 @@ body {
   }
   
   .grid-item-small {
-    
-    
+    display: inline-block;
     text-align: center;
     background-color: white;
+    margin: 0;
+    padding: 0;
   }
 
   .grid-item-medium {
