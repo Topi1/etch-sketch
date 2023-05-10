@@ -90,5 +90,5 @@ container.addEventListener("dragstart",(event)=>{
   });
   
 container.addEventListener('drop', (event) => {
-    e.preventDefault();
+    event.preventDefault();
   });
