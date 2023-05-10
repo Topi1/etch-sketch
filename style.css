@@ -1,0 +1,64 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+
+body {
+    background-color: aquamarine;
+}
+  
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin: 0 auto;
+      }
+
+.start {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+      
+    
+  
+  
+  #container {
+    
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    align-content: center;
+  }
+  
+  .grid-item-small {
+    
+    
+    text-align: center;
+    background-color: white;
+  }
+
+  .grid-item-medium {
+    
+    
+    text-align: center;
+    background-color: white;
+  }
+
+  .grid-item-large {
+    
+    
+    text-align: center;
+    background-color: white;
+  }
+
+  .buttons {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
